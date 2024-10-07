@@ -1,0 +1,9 @@
+Challenge
+Google Homepage
+You will create a beginner-level project to recreate the Google homepage using HTML, CSS, and JavaScript. The goal is to practice your skills in structuring a webpage with HTML, styling it with CSS, and adding basic interactivity with JavaScript. Your webpage must meet the requirements listed below.
+Use HTML to structure the basic layout of the webpage, including the header, search bar, buttons, and footer.
+Use CSS to style the page to resemble the Google homepage as closely as possible.
+Implement the search functionality using JavaScript. When the user enters a search query and clicks the search button, display an alert with the search query that the user entered.
+Optional challenge:
+On your Google Search page, create functionality where the user is able to type in a query, click “Google Search”, and be taken to the Google search results for that page.  (The alert on the same page is no longer enough)
+Create a total of three pages. One for the regular Google Search (which must be called index.html), one for Google Image Search, and one for Google Advanced Search. Allow the user to navigate between pages. (Hint - the Google image search and advanced search function are different).
