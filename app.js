@@ -16,12 +16,6 @@ const settingsPopup = document.querySelector('.content__div--advanced-search');
 
     if(findSection) {
         let advancedSearchURL = 'https://www.google.com/search?as_q=music&as_epq=best&as_oq=classic&as_eq=bad&as_nlo=1&as_nhi=10&lr=lang_en&cr=&as_qdr=all&as_sitesearch=.org&as_occt=any&as_filetype=&tbs='
-        
-       
-
-
-        
-        
         advancedSearchButton.addEventListener("click", () => {
        
             const allInputs = document.querySelectorAll('input');
@@ -29,19 +23,11 @@ const settingsPopup = document.querySelector('.content__div--advanced-search');
             
             let selectsArr = Array.from(allSelects);
             let inputsArr = Array.from(allInputs);
-
-
-            
-            
             
             advancedSearchURL = `https://www.google.com/search?as_q=${inputsArr[1].value}&as_epq=${inputsArr[2].value}&as_oq=${inputsArr[3].value}&as_eq=${inputsArr[4].value}&as_nlo=${inputsArr[5].value}&as_nhi=${inputsArr[6].value}&lr=lang_${selectsArr[0].value.toLowerCase()}&cr=${selectsArr[1].value}&as_qdr=all&as_sitesearch=${inputsArr[7].value}&as_occt=${selectsArr[3].value}&as_filetype=${selectsArr[4].value}&tbs=${selectsArr[5].value}`;
             
-            window.location.href = advancedSearchURL;
-           
-           
-        })
-
-       
+            window.location.href = advancedSearchURL;       
+        })     
         
     }
    
