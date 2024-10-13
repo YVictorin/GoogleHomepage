@@ -26,6 +26,7 @@ const settingsPopup = document.querySelector('.content__div--advanced-search');
        
             const allInputs = document.querySelectorAll('input');
             const allSelects = document.querySelectorAll('select');
+            
             let selectsArr = Array.from(allSelects);
             let inputsArr = Array.from(allInputs);
 
